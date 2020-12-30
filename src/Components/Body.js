@@ -10,7 +10,7 @@ export default function Body() {
             <div class="home">
                 <h2>Home</h2>
                 <h3>Hello, I am Jonathan Humphrey</h3>
-                <p className='homeAbout'>   I am an aspiring Web Developer/Computer Science Major at Texas State University. I have been learning javascript and React for a ocuple of months at this point and progressing well! I really enjoy learnign new things and challenging myself.</p>
+                <p className='homeAbout'>   I am an aspiring Web Developer/Computer Science Major at Texas State University. I have been learning javascript and React for a couple of months at this point and progressing well! I really enjoy learning new things and challenging myself.</p>
                 <img className='personalImg'src={'images/githubPFP.jpg'} alt='Jonathan'/>
             </div>
         )
@@ -56,8 +56,6 @@ export default function Body() {
                             <sub>Weather app that gets local positional data from APIs</sub><br/>
                             <a href="https://codepen.io/jonathanhumphrey/full/qBamXpz" target='blank'>Link to Project</a>
                         </div>
-                    </div>
-                    <div className='row'>
                         <div className='links'>
                             <h3>IQ test</h3>
                             <img src={'images/image3.jpg'} alt=""/><br/>
@@ -73,6 +71,7 @@ export default function Body() {
                             <a href="https://github.com/JonathanHumphrey/react-calculator" target='blank'>Code</a>
                         </div>
                     </div>
+                    
 
                 </div>
             </div>

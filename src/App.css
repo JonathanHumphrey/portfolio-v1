@@ -4,6 +4,7 @@
 .link-holder {
 	display: flex;
 	justify-content: center;
+	flex-direction: row;
 }
 .links {
 	border: solid black;
@@ -11,10 +12,7 @@
 	height: 20em;
 	margin: 5px 5px 5px 5px;
 }
-.row {
-	align-items: center;
-	flex-direction: row;
-}
+
 img {
 	height: 200px;
 	width: 200px;
@@ -89,4 +87,9 @@ p {
 	height: auto;
 	border-radius: 20px;
 	justify-content: left;
+}
+@media (maxwidth: 600px) {
+	.link-holder {
+		flex-wrap: wrap;
+	}
 }
