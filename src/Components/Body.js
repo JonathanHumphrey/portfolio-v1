@@ -10,7 +10,7 @@ export default function Body() {
             <div class="home">
                 <h2>Home</h2>
                 <h3>Hello, I am Jonathan Humphrey</h3>
-                <p className='homeAbout'>   I am an aspiring Web Developer/Computer Science Major at Texas State University. I have been learning javascript and React for a couple of months at this point and progressing well! I really enjoy learning new things and challenging myself.</p>
+                <p className='homeAbout'>   I am a Web Developer/Computer Science Major at Texas State University. I have been learning javascript and React for a couple of months at this point and progressing well! I really enjoy learning new things and challenging myself.</p>
                 <img className='personalImg'src={'images/githubPFP.jpg'} alt='Jonathan'/>
             </div>
         )
@@ -69,6 +69,27 @@ export default function Body() {
                             <sub>A Calculator built using React</sub><br/>
                             <a href="https://eloquent-lewin-5e0d44.netlify.app/" target='blank'>Link to Project</a><br/>
                             <a href="https://github.com/JonathanHumphrey/react-calculator" target='blank'>Code</a>
+                        </div>
+                        <div className='links'>
+                            <h3>Modern Site</h3>
+                            <img src={'images/image4.jpg'} alt="" /><br />
+                            <sub>A food website built to test my UI design</sub><br/>
+                            <a href="https://blissful-poincare-9bb1e4.netlify.app/" target='blank'>Link to Project</a><br/>
+                            <a href="https://github.com/JonathanHumphrey/modern-site" target='blank'>Code</a>
+                        </div>
+                        <div className='links'>
+                            <h3>React Weather App</h3>
+                            <img src={'images/image5.jpg'} alt="" /><br />
+                            <sub>A food website built to test my UI design</sub><br/>
+                            <a href="https://silly-bardeen-a515ba.netlify.app/" target='blank'>Link to Project</a><br/>
+                            <a href="https://github.com/JonathanHumphrey/react-weather-app" target='blank'>Code</a>
+                        </div>
+                        <div className='links'>
+                            <h3>Store/Shopping Cart</h3>
+                            <img src={'images/image6.jpg'} alt="" /><br />
+                            <sub>A food website built to test my UI design</sub><br/>
+                            <a href="https://happy-lewin-3730e0.netlify.app/" target='blank'>Link to Project</a><br/>
+                            <a href="https://github.com/JonathanHumphrey/shopping" target='blank'>Code</a>
                         </div>
                     </div>
                     
